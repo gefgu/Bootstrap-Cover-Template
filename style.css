@@ -1,0 +1,27 @@
+.nav-link {
+  transition: border-bottom 0.1s ease-in-out;
+}
+
+.nav-link:hover {
+  border-bottom: 4px solid white;
+  color: inherit;
+  margin-bottom: -4px;
+}
+
+body > div {
+  background: url("https://images.unsplash.com/photo-1502065818465-68b2b73e85aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1994&q=80") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main p {
+  width: 90%;
+}
+
+@media only screen and (min-width: 768px) {
+  main p {
+    width: 40%;
+  }
+}
