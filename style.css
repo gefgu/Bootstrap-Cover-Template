@@ -20,6 +20,10 @@ main p {
   width: 90%;
 }
 
+h3 strong{
+  cursor: pointer !important;
+}
+
 @media only screen and (min-width: 768px) {
   main p {
     width: 40%;
